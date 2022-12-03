@@ -1,0 +1,13 @@
+:root{
+  --lightgray: #090909;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+
+}
+.App{
+  background: var(--lightgray);
+  display: flex;
+  flex-direction: column ;
+  gap: 6rem;
+  overflow: hidden;
+}

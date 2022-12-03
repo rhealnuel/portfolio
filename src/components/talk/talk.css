@@ -1,0 +1,24 @@
+.talktext{
+    text-align: center;
+    background: #7510f7;
+    color: white;
+    height: 400px;
+    padding-top: 30px;
+}
+.talkh4{
+    font-size: larger;
+}
+.talkp{
+    font-size:large;
+}
+@media screen and (max-width: 767px){
+    .talkh4{
+        font-size:1.9em;
+    }
+    .talkp{
+        font-size:1.4em;
+    }
+    .talktext{
+        height:35em;
+    }
+}

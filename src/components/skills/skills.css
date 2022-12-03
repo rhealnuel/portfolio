@@ -1,0 +1,24 @@
+.general{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    text-align: center;
+    
+    
+    
+
+}
+.htmlpic{
+    height: 5em;
+    padding-top: 8em;
+}
+@media screen and (max-width: 767px){
+    .general{
+        display: inline;
+        
+    }
+    .htmlpic{
+        height: 4em;
+        margin-top: -2em;
+    }
+}
