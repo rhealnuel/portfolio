@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 
 function Navbar() {
-    const [state, setState]= useState(true);
+    const [state, setState]= useState(false);
     const toggle =() => {
        setState(!state);
     
